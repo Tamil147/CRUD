@@ -1,0 +1,128 @@
+.maindiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.table {
+    margin: 10px;
+}
+
+html,
+body,
+#root {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+
+
+}
+
+div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table,
+tr,
+td {
+    border: 2px solid black;
+
+
+}
+
+tr,
+td {
+    padding: 5px 9px;
+}
+
+/* Main container */
+div {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form inputs */
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add/Update button */
+button {
+    padding: 10px 16px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Action buttons inside table */
+td button {
+    margin: 0 5px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+td button:first-child {
+    background-color: #ffc107;
+    /* Edit - yellow */
+    color: black;
+}
+
+td button:last-child {
+    background-color: #dc3545;
+    /* Delete - red */
+    color: white;
+}
+
+td button:hover {
+    opacity: 0.8;
+}
